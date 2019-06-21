@@ -1,0 +1,26 @@
+package com.tencent.mm.plugin.emoji.ui;
+
+import android.content.DialogInterface;
+import android.content.DialogInterface.OnClickListener;
+import com.tencent.matrix.trace.core.AppMethodBeat;
+
+final class EmojiAddCustomDialogUI$5
+  implements DialogInterface.OnClickListener
+{
+  EmojiAddCustomDialogUI$5(EmojiAddCustomDialogUI paramEmojiAddCustomDialogUI)
+  {
+  }
+
+  public final void onClick(DialogInterface paramDialogInterface, int paramInt)
+  {
+    AppMethodBeat.i(53274);
+    this.kZj.setResult(3);
+    this.kZj.finish();
+    AppMethodBeat.o(53274);
+  }
+}
+
+/* Location:           C:\Users\Lin\Downloads\dex-tools-2.1-SNAPSHOT\dex-tools-2.1-SNAPSHOT\classes2-dex2jar.jar
+ * Qualified Name:     com.tencent.mm.plugin.emoji.ui.EmojiAddCustomDialogUI.5
+ * JD-Core Version:    0.6.2
+ */

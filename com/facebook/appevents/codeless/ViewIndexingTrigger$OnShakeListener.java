@@ -1,0 +1,11 @@
+package com.facebook.appevents.codeless;
+
+public abstract interface ViewIndexingTrigger$OnShakeListener
+{
+  public abstract void onShake();
+}
+
+/* Location:           C:\Users\Lin\Downloads\dex-tools-2.1-SNAPSHOT\dex-tools-2.1-SNAPSHOT\classes5-dex2jar.jar
+ * Qualified Name:     com.facebook.appevents.codeless.ViewIndexingTrigger.OnShakeListener
+ * JD-Core Version:    0.6.2
+ */

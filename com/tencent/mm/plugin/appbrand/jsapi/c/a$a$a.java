@@ -1,0 +1,16 @@
+package com.tencent.mm.plugin.appbrand.jsapi.c;
+
+import java.util.Map;
+import org.json.JSONObject;
+
+public abstract interface a$a$a
+{
+  public abstract void dV(boolean paramBoolean);
+
+  public abstract void z(Map<String, JSONObject> paramMap);
+}
+
+/* Location:           C:\Users\Lin\Downloads\dex-tools-2.1-SNAPSHOT\dex-tools-2.1-SNAPSHOT\classes4-dex2jar.jar
+ * Qualified Name:     com.tencent.mm.plugin.appbrand.jsapi.c.a.a.a
+ * JD-Core Version:    0.6.2
+ */

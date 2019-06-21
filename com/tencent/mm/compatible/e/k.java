@@ -1,0 +1,235 @@
+package com.tencent.mm.compatible.e;
+
+import com.tencent.matrix.trace.core.AppMethodBeat;
+import com.tencent.mm.sdk.platformtools.ab;
+
+public final class k
+{
+  public int erI;
+  public int erJ;
+  public int erK;
+  public int erL;
+  public int erM;
+  public int erN;
+  public int erO;
+  public int erP;
+  public boolean erQ;
+  public int erR;
+  public int erS;
+  public int erT;
+  public int erU;
+  public int erV;
+  public int erW;
+  public int erX;
+  public int erY;
+  public int erZ;
+  public String esA;
+  public String esB;
+  public int esC;
+  public int esD;
+  public int esE;
+  public int esF;
+  public int esG;
+  public int esH;
+  public int esI;
+  public int esa;
+  public int esb;
+  public int esc;
+  public int esd;
+  public int ese;
+  public int esf;
+  public int esg;
+  public int esh;
+  public int esi;
+  public int esj;
+  public double esk;
+  public int esl;
+  public int esm;
+  public int esn;
+  public int eso;
+  public String esp;
+  public String esq;
+  public String esr;
+  public String ess;
+  public String est;
+  public String esu;
+  public String esv;
+  public String esw;
+  public String esx;
+  public String esy;
+  public String esz;
+
+  public k()
+  {
+    AppMethodBeat.i(92933);
+    this.erI = -1;
+    this.erJ = -1;
+    this.erK = -1;
+    this.erL = -1;
+    this.erM = -1;
+    this.erN = -1;
+    this.erO = -1;
+    this.erP = -1;
+    this.erQ = false;
+    this.erR = -1;
+    this.erS = -1;
+    this.erT = -1;
+    this.erU = -1;
+    this.erV = -1;
+    this.erW = -1;
+    this.erX = -1;
+    this.erY = -1;
+    this.erZ = -1;
+    this.esa = -1;
+    this.esb = -1;
+    this.esc = -1;
+    this.esd = -1;
+    this.ese = -1;
+    this.esf = -1;
+    this.esg = -1;
+    this.esh = -1;
+    this.esi = -1;
+    this.esj = -1;
+    this.esk = -1.0D;
+    this.esl = -1;
+    this.esm = -1;
+    this.esn = -1;
+    this.eso = -1;
+    this.esp = null;
+    this.esq = null;
+    this.esr = null;
+    this.ess = null;
+    this.est = null;
+    this.esu = null;
+    this.esv = null;
+    this.esw = null;
+    this.esx = null;
+    this.esy = null;
+    this.esz = null;
+    this.esA = null;
+    this.esB = null;
+    this.esC = -1;
+    this.esD = 2;
+    this.esE = 1;
+    this.esF = 1;
+    this.esG = -1;
+    this.esH = -1;
+    this.esI = -1;
+    reset();
+    AppMethodBeat.o(92933);
+  }
+
+  public final void dump()
+  {
+    AppMethodBeat.i(92934);
+    ab.d("MicroMsg.CommonInfo", "js " + this.erI);
+    ab.d("MicroMsg.CommonInfo", "stopBluetoothInBR " + this.erJ);
+    ab.d("MicroMsg.CommonInfo", "stopBluetoothInBU " + this.erK);
+    ab.d("MicroMsg.CommonInfo", "setBluetoothScoOn " + this.erM);
+    ab.d("MicroMsg.CommonInfo", "startBluetoothSco " + this.erL);
+    ab.d("MicroMsg.CommonInfo", "voiceSearchFastMode " + this.erN);
+    ab.d("MicroMsg.CommonInfo", "pcmReadMode " + this.erP);
+    ab.d("MicroMsg.CommonInfo", "pcmBufferRate " + this.erO);
+    ab.d("MicroMsg.CommonInfo", "audioPrePro " + this.erS);
+    ab.d("MicroMsg.CommonInfo", "voicemsgfd " + this.erT);
+    ab.d("MicroMsg.CommonInfo", "htcvoicemode " + this.erU);
+    ab.d("MicroMsg.CommonInfo", "samsungvoicemode " + this.erV);
+    ab.d("MicroMsg.CommonInfo", "speexBufferRate " + this.erW);
+    ab.d("MicroMsg.CommonInfo", "linespe " + this.erX);
+    ab.d("MicroMsg.CommonInfo", "fixspan " + this.esi);
+    ab.d("MicroMsg.CommonInfo", "extvideo " + this.erY);
+    ab.d("MicroMsg.CommonInfo", "extvideosam " + this.erZ);
+    ab.d("MicroMsg.CommonInfo", "sysvideodegree " + this.esa);
+    ab.d("MicroMsg.CommonInfo", "mmnotify " + this.esd);
+    ab.d("MicroMsg.CommonInfo", "extsharevcard " + this.esc);
+    ab.d("MicroMsg.CommonInfo", "audioformat " + this.ese);
+    ab.d("MicroMsg.CommonInfo", "qrcam " + this.esf);
+    ab.d("MicroMsg.CommonInfo", "mBase " + this.esp);
+    ab.d("MicroMsg.CommonInfo", "mPackageInfo " + this.esq);
+    ab.d("MicroMsg.CommonInfo", "mClassLoader " + this.esr);
+    ab.d("MicroMsg.CommonInfo", "mResources " + this.ess);
+    ab.d("MicroMsg.CommonInfo", "sysvideofp " + this.esg);
+    ab.d("MicroMsg.CommonInfo", "extstoragedir " + this.est);
+    ab.d("MicroMsg.CommonInfo", "extpubdir " + this.esu);
+    ab.d("MicroMsg.CommonInfo", "extdatadir " + this.esv);
+    ab.d("MicroMsg.CommonInfo", "extrootdir " + this.esw);
+    ab.d("MicroMsg.CommonInfo", "extstoragestate " + this.esx);
+    ab.d("MicroMsg.CommonInfo", "extcachedir " + this.esy);
+    ab.d("MicroMsg.CommonInfo", "extvideoplayer " + this.esh);
+    ab.d("MicroMsg.CommonInfo", "loadDrawable " + this.esz);
+    ab.d("MicroMsg.CommonInfo", "loadXmlResourceParser " + this.esA);
+    ab.d("MicroMsg.CommonInfo", "voipAudioPrePro " + this.esl);
+    ab.d("MicroMsg.CommonInfo", "voipAudioPreProNS " + this.esm);
+    ab.d("MicroMsg.CommonInfo", "voipAudioPreProAEC " + this.esn);
+    ab.d("MicroMsg.CommonInfo", "voipAudioPreProAGC " + this.eso);
+    ab.d("MicroMsg.CommonInfo", "sight full screen type " + this.esB);
+    ab.d("MicroMsg.CommonInfo", "checkSightDraftMd5 " + this.esD);
+    ab.d("MicroMsg.CommonInfo", "swipeBackConfig " + this.esE);
+    ab.d("MicroMsg.CommonInfo", "qrCodeZoom " + this.esj);
+    ab.d("MicroMsg.CommonInfo", "hevcTransCodeMediaCodec" + this.esH);
+    ab.i("MicroMsg.CommonInfo", "videoSupportHevcDecode" + this.esI);
+    AppMethodBeat.o(92934);
+  }
+
+  public final void reset()
+  {
+    this.erI = -1;
+    this.erJ = -1;
+    this.erK = -1;
+    this.erL = -1;
+    this.erM = -1;
+    this.erN = -1;
+    this.erP = -1;
+    this.erO = -1;
+    this.erS = -1;
+    this.erT = -1;
+    this.erU = -1;
+    this.erV = -1;
+    this.erQ = false;
+    this.erR = -1;
+    this.erW = -1;
+    this.erX = -1;
+    this.erY = -1;
+    this.erZ = -1;
+    this.esa = -1;
+    this.esd = -1;
+    this.esc = -1;
+    this.ese = -1;
+    this.esf = -1;
+    this.esb = -1;
+    this.ese = -1;
+    this.esf = -1;
+    this.esi = -1;
+    this.esl = -1;
+    this.esm = -1;
+    this.esn = -1;
+    this.eso = -1;
+    this.esp = null;
+    this.esq = null;
+    this.esr = null;
+    this.ess = null;
+    this.esg = -1;
+    this.est = null;
+    this.esu = null;
+    this.esv = null;
+    this.esw = null;
+    this.esx = null;
+    this.esy = null;
+    this.esh = -1;
+    this.esz = null;
+    this.esA = null;
+    this.esB = null;
+    this.esC = -1;
+    this.esD = 2;
+    this.esE = 1;
+    this.esF = 1;
+    this.esj = -1;
+    this.esH = -1;
+    this.esI = -1;
+  }
+}
+
+/* Location:           C:\Users\Lin\Downloads\dex-tools-2.1-SNAPSHOT\dex-tools-2.1-SNAPSHOT\classes-dex2jar.jar
+ * Qualified Name:     com.tencent.mm.compatible.e.k
+ * JD-Core Version:    0.6.2
+ */

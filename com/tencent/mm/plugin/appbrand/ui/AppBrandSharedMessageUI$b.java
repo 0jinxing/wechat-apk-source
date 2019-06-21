@@ -1,0 +1,55 @@
+package com.tencent.mm.plugin.appbrand.ui;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import com.tencent.matrix.trace.core.AppMethodBeat;
+
+final class AppBrandSharedMessageUI$b extends BaseAdapter
+{
+  private LayoutInflater mInflater;
+
+  public AppBrandSharedMessageUI$b(LayoutInflater paramLayoutInflater)
+  {
+    this.mInflater = paramLayoutInflater;
+  }
+
+  public final int getCount()
+  {
+    return 0;
+  }
+
+  public final Object getItem(int paramInt)
+  {
+    return null;
+  }
+
+  public final long getItemId(int paramInt)
+  {
+    return 0L;
+  }
+
+  public final int getItemViewType(int paramInt)
+  {
+    AppMethodBeat.i(133096);
+    paramInt = super.getItemViewType(paramInt);
+    AppMethodBeat.o(133096);
+    return paramInt;
+  }
+
+  public final View getView(int paramInt, View paramView, ViewGroup paramViewGroup)
+  {
+    return null;
+  }
+
+  public final int getViewTypeCount()
+  {
+    return 4;
+  }
+}
+
+/* Location:           C:\Users\Lin\Downloads\dex-tools-2.1-SNAPSHOT\dex-tools-2.1-SNAPSHOT\classes2-dex2jar.jar
+ * Qualified Name:     com.tencent.mm.plugin.appbrand.ui.AppBrandSharedMessageUI.b
+ * JD-Core Version:    0.6.2
+ */

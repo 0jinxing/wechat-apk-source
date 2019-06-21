@@ -1,0 +1,66 @@
+package com.google.android.gms.common.data;
+
+import android.os.Bundle;
+import com.google.android.gms.common.internal.Asserts;
+import java.util.Iterator;
+
+public abstract class FilteredDataBuffer<T>
+  implements DataBuffer<T>
+{
+  protected final DataBuffer<T> mDataBuffer;
+
+  public FilteredDataBuffer(DataBuffer<T> paramDataBuffer)
+  {
+    Asserts.checkNotNull(paramDataBuffer);
+    if (!(paramDataBuffer instanceof FilteredDataBuffer));
+    for (boolean bool = true; ; bool = false)
+    {
+      Asserts.checkState(bool, "Not possible to have nested FilteredDataBuffers.");
+      this.mDataBuffer = paramDataBuffer;
+      return;
+    }
+  }
+
+  public void close()
+  {
+    release();
+  }
+
+  protected abstract int computeRealPosition(int paramInt);
+
+  public T get(int paramInt)
+  {
+    return this.mDataBuffer.get(computeRealPosition(paramInt));
+  }
+
+  public Bundle getMetadata()
+  {
+    return this.mDataBuffer.getMetadata();
+  }
+
+  @Deprecated
+  public boolean isClosed()
+  {
+    return this.mDataBuffer.isClosed();
+  }
+
+  public Iterator<T> iterator()
+  {
+    return new DataBufferIterator(this);
+  }
+
+  public void release()
+  {
+    this.mDataBuffer.release();
+  }
+
+  public Iterator<T> singleRefIterator()
+  {
+    return iterator();
+  }
+}
+
+/* Location:           C:\Users\Lin\Downloads\dex-tools-2.1-SNAPSHOT\dex-tools-2.1-SNAPSHOT\classes7-dex2jar.jar
+ * Qualified Name:     com.google.android.gms.common.data.FilteredDataBuffer
+ * JD-Core Version:    0.6.2
+ */

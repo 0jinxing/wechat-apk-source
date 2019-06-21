@@ -1,0 +1,22 @@
+package com.tencent.smtt.export.external.extension.proxy;
+
+import com.tencent.smtt.export.external.WebViewWizardBase;
+import com.tencent.smtt.export.external.extension.interfaces.IX5WebViewClientExtension;
+
+public abstract class X5ProxyWebViewClientExtension extends ProxyWebViewClientExtension
+{
+  public X5ProxyWebViewClientExtension(WebViewWizardBase paramWebViewWizardBase)
+  {
+    this.mWebViewClientExt = ((IX5WebViewClientExtension)paramWebViewWizardBase.newInstance("com.tencent.smtt.webkit.WebViewClientExtension"));
+  }
+
+  public X5ProxyWebViewClientExtension(IX5WebViewClientExtension paramIX5WebViewClientExtension)
+  {
+    this.mWebViewClientExt = paramIX5WebViewClientExtension;
+  }
+}
+
+/* Location:           C:\Users\Lin\Downloads\dex-tools-2.1-SNAPSHOT\dex-tools-2.1-SNAPSHOT\classes4-dex2jar.jar
+ * Qualified Name:     com.tencent.smtt.export.external.extension.proxy.X5ProxyWebViewClientExtension
+ * JD-Core Version:    0.6.2
+ */

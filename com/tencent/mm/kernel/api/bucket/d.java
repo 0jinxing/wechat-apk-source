@@ -1,0 +1,12 @@
+package com.tencent.mm.kernel.api.bucket;
+
+import com.tencent.mm.kernel.api.e;
+
+public abstract interface d extends e
+{
+}
+
+/* Location:           C:\Users\Lin\Downloads\dex-tools-2.1-SNAPSHOT\dex-tools-2.1-SNAPSHOT\classes4-dex2jar.jar
+ * Qualified Name:     com.tencent.mm.kernel.api.bucket.d
+ * JD-Core Version:    0.6.2
+ */

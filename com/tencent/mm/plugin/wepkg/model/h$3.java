@@ -1,0 +1,25 @@
+package com.tencent.mm.plugin.wepkg.model;
+
+import com.tencent.matrix.trace.core.AppMethodBeat;
+
+final class h$3
+  implements Runnable
+{
+  h$3(WepkgCrossProcessTask paramWepkgCrossProcessTask, a parama)
+  {
+  }
+
+  public final void run()
+  {
+    AppMethodBeat.i(63569);
+    this.uXy.asP();
+    if (this.uXt != null)
+      this.uXt.a(this.uXy);
+    AppMethodBeat.o(63569);
+  }
+}
+
+/* Location:           C:\Users\Lin\Downloads\dex-tools-2.1-SNAPSHOT\dex-tools-2.1-SNAPSHOT\classes4-dex2jar.jar
+ * Qualified Name:     com.tencent.mm.plugin.wepkg.model.h.3
+ * JD-Core Version:    0.6.2
+ */
